@@ -1,6 +1,6 @@
-<h1># A lyrics search app made with javascript</h1>
+<h1># A sophisticated to-do list app made with javascript</h1>
 
-This is a javascript project to create that allows user to find lyrics of the songs based on song name or singer. To create this project fetch/async await methods were used.
+This is a javascript project to create a to-do list app that allows user to add daily tasks or activities in the list. Users can edit individual items from the list after adding them and can also mark it check after finishing them. There is a delete option as well as a clear list option for the user.
 
 <img src="picture1.PNG" alt="projectimg">
 
