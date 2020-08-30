@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  font-family: 'Play', sans-serif;
+}
+h1 {
+  color:rgba(36, 137, 174, 1);
+}
+
+.container {
+background-color: white;
+width: 70%;
+margin: 5% auto;
+text-align: center;
+padding: 2%;
+}
+
+input {
+  width: 70%;
+  margin-right: 2px;
+  padding-left:5px;
+}
+
+.btns {
+  margin-bottom:3%;
+}
+
+#task {
+  height: 30px;
+}
+#add {
+  background-color: rgba(52, 197, 81, 1);
+  height: 35px;
+  color:white;
+  border:2px green solid;
+  border-radius: 5px;
+}
+
+#clear {
+  background-color:rgba(207, 80, 74, 1);
+  height: 35px;
+  color:white;
+  border:2px red solid;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.del {
+  color:red;
+  margin-left:5px;
+}
+.edit {
+  color:brown;
+  margin-left:10px;
+}
+
+.com {
+  color:green;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px white solid;
+}
+
+.items {
+  display: none;
+  margin-top:10px;
+  background-color: rgba(149, 211, 233, 1);
+  padding: 1% 2%;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.items.show {
+  display: block;
+}
+.error.show {
+  display: block;
+}
+
+.success.show {
+  display: block;
+}
+
+.error {
+  display: none;
+  background-color:rgba(224, 117, 113, 1);
+  padding: 1%;
+  color:white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.success {
+  display: none;
+  background-color:rgba(88, 218, 103, 1);
+  padding: 1%;
+  color:white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h3.cross {
+  text-decoration: line-through;
+  color:grey;
+}
+
+input.style {
+  background-color: red;
+  color:white;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+}
